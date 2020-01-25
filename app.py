@@ -11,27 +11,23 @@ import numpy as np
 import pandas as pd
 
 ########### Defining dash variables
-color1='lightblue'
-color2='darkgreen'
-tabtitle='Oracle20'
-myheading='Oracle'
-githublink='https://github.com/rorcores/oracle-repo/'
-sourceurl='https://oracle20.herokuapp.com/'
-
+color1 = 'lightblue'
+color2 = 'darkgreen'
+tabtitle = 'Oracle20'
+myheading = 'Oracle'
+githublink = 'https://github.com/rorcores/oracle-repo/'
+sourceurl = 'https://oracle20.herokuapp.com/'
 
 ########### Initiate the app
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
-app.title=tabtitle
+app.title = tabtitle
 
 colors = {
     'background': '#ffffff',
     'text': '#000000'
 }
-
-
-
 
 usa_region_best = pd.read_csv('testusa.csv')
 usa_region_best = usa_region_best.iloc[:, 1:]
@@ -41,7 +37,6 @@ uk_region_best = uk_region_best.iloc[:, 1:]
 
 au_region_best = pd.read_csv('testau.csv')
 au_region_best = au_region_best.iloc[:, 1:]
-
 
 
 # build model
@@ -68,8 +63,6 @@ def build_model():
     return (poisson_model)
 
 
-
-
 def simulate_match(foot_model, home_team, away_team, max_goals=10):
     home_goals_avg = foot_model.predict(pd.DataFrame(data={'team': home_team,
                                                            'opponent': away_team, 'home': 1},
@@ -82,8 +75,6 @@ def simulate_match(foot_model, home_team, away_team, max_goals=10):
     return np.outer(np.array(team_pred[0]), np.array(team_pred[1]))
 
 
-
-
 centre_style = {'textAlign': 'center',
                 'color': colors['text']}
 
@@ -92,12 +83,16 @@ app.title = "Oracle"
 app.layout = html.Div([
 
     html.Div([
+        html.Img(
+            src='static/logo.png')
+    ], style={'textAlign': 'center'}),
 
-        html.H1(children='ORACLE', style={'textAlign': 'center', 'marginBottom': '0em'}),
+    html.Div([
+
+        html.H3(children='ORACLE', style={'textAlign': 'center', 'marginBottom': '0em'}),
 
     ],
         style={'textAlign': 'center', 'width': '100%', 'color': colors['text']}),
-
     html.Div([
 
         html.H6(children='PREMIER LEAGUE PREDICTION ENGINE', style={'display': 'inline-block', 'marginBottom': '0em'}),
@@ -325,7 +320,6 @@ app.layout = html.Div([
     [Input(component_id='home_team', component_property='value'),
      Input(component_id='away_team', component_property='value')])
 def crunchOdds(home_team, away_team):
-
     poisson_model = build_model()
 
     if home_team is None:
@@ -363,7 +357,6 @@ def crunchOdds(home_team, away_team):
 
 
 if __name__ == '__main__':
-
     poisson_model = build_model()
 
     app.run_server()
