@@ -95,7 +95,7 @@ app.layout = html.Div([
         style={'textAlign': 'center', 'width': '100%', 'color': colors['text']}),
     html.Div([
 
-        html.H6(children='PREMIER LEAGUE PREDICTION ENGINE', style={'display': 'inline-block', 'marginBottom': '0em'}),
+        html.H6(children='FOOTBALL MACHINE LEARNING ENGINE', style={'display': 'inline-block', 'marginBottom': '0em'}),
 
     ],
         style={'textAlign': 'center', 'width': '100%', 'color': colors['text']}),
