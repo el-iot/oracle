@@ -10,6 +10,21 @@ import statsmodels.formula.api as smf
 import numpy as np
 import pandas as pd
 
+########### Define your variables
+# beers=['Chesapeake Stout', 'Snake Dog IPA', 'Imperial Porter', 'Double Dog IPA']
+# ibu_values=[35, 60, 85, 75]
+# abv_values=[5.4, 7.1, 9.2, 4.3]
+color1='lightblue'
+color2='darkgreen'
+# mytitle='Beer Comparison'
+tabtitle='Oracle20'
+myheading='Oracle'
+# label1='IBU'
+# label2='ABV'
+githublink='https://github.com/rorcores/oracle-repo/'
+sourceurl='https://oracle20.herokuapp.com/'
+
+
 ########### Initiate the app
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
@@ -20,6 +35,7 @@ colors = {
     'background': '#ffffff',
     'text': '#000000'
 }
+
 
 
 
