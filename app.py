@@ -10,7 +10,7 @@ import statsmodels.formula.api as smf
 import numpy as np
 import pandas as pd
 
-########### Define your variables
+########### Defining dash variables
 color1='lightblue'
 color2='darkgreen'
 tabtitle='Oracle20'
