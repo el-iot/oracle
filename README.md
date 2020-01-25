@@ -2,6 +2,8 @@
 
 ![Screenshot](logo.png)
 
+*Oracle* was created by [Rory](https://www.linkedin.com/in/rory-garton-smith-5b991659/)
+
 Click [here](https://oracle20.herokuapp.com/) to visit Oracle.
 
 *Oracle* uses a form of [machine learning](https://en.wikipedia.org/wiki/Machine_learning) known as [poisson regression](https://en.wikipedia.org/wiki/Poisson_regression) to predict 
