@@ -10,7 +10,7 @@ import requests
 
 class Oracle:
     def __init__(self, region):
-        self.api_key = "9fe7da5932f467f8540fd439b8e5eeee"
+        self.api_key = "insert_api_key" 
 
         self.team_dict = {'Brighton and Hove Albion': 'Brighton',
                           'Newcastle United': 'Newcastle',
