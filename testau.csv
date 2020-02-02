@@ -1,7 +1,7 @@
 ,Home Team,Away Team,Game Time,Bookmaker,Suggested Bet,Bookie Probability,Oracle Probability,Significance,Strength
-1,Leicester,Chelsea,2020-02-01 04:30:00,Unibet,Home Win,38.17,62.45,24,***
-7,Everton,Crystal Palace,2020-02-08 04:30:00,SportsBet,Away Win,16.67,29.75,13,*
-9,Wolves,Leicester,2020-02-14 12:00:00,Unibet,Away Win,37.04,53.53,16,**
-10,Southampton,Burnley,2020-02-15 04:30:00,Unibet,Away Win,21.05,32.47,11,*
-11,Norwich,Liverpool,2020-02-15 09:30:00,Unibet,Away Win,74.07,88.33,14,**
-12,Arsenal,Newcastle,2020-02-16 08:30:00,Unibet,Away Win,14.29,25.1,10,*
+0,Everton,Crystal Palace,2020-02-08 04:30:00,PointsBet (AU),Away Win,17.39,29.76,12,*
+2,Wolves,Leicester,2020-02-14 12:00:00,PointsBet (AU),Away Win,35.71,53.58,17,**
+3,Southampton,Burnley,2020-02-15 04:30:00,PointsBet (AU),Away Win,20.83,32.46,11,*
+4,Norwich,Liverpool,2020-02-15 09:30:00,Unibet,Away Win,74.07,88.28,14,**
+5,Arsenal,Newcastle,2020-02-16 08:30:00,SportsBet,Away Win,13.33,25.09,11,*
+9,Leicester,Man City,2020-02-22 09:30:00,SportsBet,Home Win,20.0,42.07,22,**

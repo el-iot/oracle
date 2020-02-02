@@ -1,9 +1,8 @@
 ,Home Team,Away Team,Game Time,Bookmaker,Suggested Bet,Bookie Probability,Oracle Probability,Significance,Strength
-0,West Ham,Liverpool,2020-01-29 11:45:00,1xBet,Away Win,71.43,82.81,11,**
-1,Leicester,Chelsea,2020-02-01 04:30:00,Sky Bet,Home Win,37.04,62.45,25,***
-4,Liverpool,Southampton,2020-02-01 07:00:00,1xBet,Home Win,75.19,86.52,11,**
-8,Everton,Crystal Palace,2020-02-08 04:30:00,William Hill,Away Win,15.38,29.75,14,*
-10,Wolves,Leicester,2020-02-14 12:00:00,1xBet,Away Win,36.36,53.53,17,**
-11,Southampton,Burnley,2020-02-15 04:30:00,Bet Victor,Away Win,21.05,32.47,11,*
-12,Norwich,Liverpool,2020-02-15 09:30:00,1xBet,Away Win,72.46,88.33,15,**
-13,Arsenal,Newcastle,2020-02-16 08:30:00,William Hill,Away Win,14.29,25.1,10,*
+0,Everton,Crystal Palace,2020-02-08 04:30:00,William Hill,Away Win,15.38,29.76,14,*
+2,Wolves,Leicester,2020-02-14 12:00:00,Matchbook,Away Win,34.13,53.58,19,**
+3,Southampton,Burnley,2020-02-15 04:30:00,William Hill,Away Win,20.0,32.46,12,*
+4,Norwich,Liverpool,2020-02-15 09:30:00,1xBet,Away Win,72.99,88.28,15,**
+5,Arsenal,Newcastle,2020-02-16 08:30:00,Bet Victor,Away Win,11.76,25.09,13,*
+9,Southampton,Aston Villa,2020-02-22 07:00:00,Bet Victor,Away Win,19.23,29.56,10,*
+10,Leicester,Man City,2020-02-22 09:30:00,Sky Bet,Home Win,18.18,42.07,23,**
