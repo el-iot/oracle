@@ -1,11 +1,13 @@
+import json
 from datetime import datetime
-import pandas as pd
+
 import numpy as np
+import pandas as pd
+import requests
 from scipy.stats import poisson
+
 import statsmodels.api as sm
 import statsmodels.formula.api as smf
-import json
-import requests
 
 
 class Oracle:
