@@ -1,7 +1,4 @@
 ,Home Team,Away Team,Game Time,Bookmaker,Suggested Bet,Bookie Probability,Oracle Probability,Significance,Strength
-0,Everton,Crystal Palace,2020-02-08 04:30:00,Bovada,Away Win,16.0,29.76,13,*
-2,Wolves,Leicester,2020-02-14 12:00:00,Bovada,Away Win,35.71,53.58,17,**
-3,Southampton,Burnley,2020-02-15 04:30:00,Bovada,Away Win,20.0,32.46,12,*
-4,Norwich,Liverpool,2020-02-15 09:30:00,LowVig.ag,Away Win,74.63,88.28,13,**
-5,Arsenal,Newcastle,2020-02-16 08:30:00,Bovada,Away Win,13.33,25.09,11,*
-9,Leicester,Man City,2020-02-22 09:30:00,MyBookie.ag,Home Win,21.19,42.07,20,**
+0,Norwich,Leicester,2020-02-28 12:00:00,BetOnline.ag,Away Win,56.5,76.23,19,**
+3,Watford,Liverpool,2020-02-29 09:30:00,BetOnline.ag,Away Win,68.49,81.78,13,**
+4,Everton,Man United,2020-03-01 06:00:00,Bookmaker,Away Win,35.09,46.72,11,*

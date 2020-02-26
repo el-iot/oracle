@@ -1,8 +1,6 @@
 ,Home Team,Away Team,Game Time,Bookmaker,Suggested Bet,Bookie Probability,Oracle Probability,Significance,Strength
-0,Everton,Crystal Palace,2020-02-08 04:30:00,William Hill,Away Win,15.38,29.76,14,*
-2,Wolves,Leicester,2020-02-14 12:00:00,Matchbook,Away Win,34.13,53.58,19,**
-3,Southampton,Burnley,2020-02-15 04:30:00,William Hill,Away Win,20.0,32.46,12,*
-4,Norwich,Liverpool,2020-02-15 09:30:00,1xBet,Away Win,72.99,88.28,15,**
-5,Arsenal,Newcastle,2020-02-16 08:30:00,Bet Victor,Away Win,11.76,25.09,13,*
-9,Southampton,Aston Villa,2020-02-22 07:00:00,Bet Victor,Away Win,19.23,29.56,10,*
-10,Leicester,Man City,2020-02-22 09:30:00,Sky Bet,Home Win,18.18,42.07,23,**
+0,Norwich,Leicester,2020-02-28 12:00:00,1xBet,Away Win,55.87,76.23,20,***
+3,Watford,Liverpool,2020-02-29 09:30:00,1xBet,Away Win,68.49,81.78,13,**
+4,Everton,Man United,2020-03-01 06:00:00,Marathon Bet,Away Win,34.6,46.72,12,*
+8,Man United,Man City,2020-03-08 09:30:00,Marathon Bet,Home Win,16.67,27.58,10,*
+9,Leicester,Aston Villa,2020-03-09 13:00:00,1xBet,Home Win,70.42,81.45,11,**
